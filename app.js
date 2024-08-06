@@ -72,6 +72,8 @@ numbers.forEach((number) => {
             operand2 = 0;
             operation = "";
             resultCal = false;
+            dotUsed1 = false;
+            dotUsed2 = false;
         }
         else if (firstOp) {
             if (dotUsed1) {
