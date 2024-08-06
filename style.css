@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.box{
+    justify-content: center;
+    text-align: center;
+    margin: 8rem;
+    border: 0.1rem solid black;
+    height: 460px;
+    width: 380px;
+    border-radius: 1rem;
+    background-color: rgb(215, 215, 218);
+}
+
+.display{
+    margin: 2rem;
+    border: 0.1rem solid black;
+    height: 80px;
+    width: 320px;
+    justify-content: center;
+    text-align: center;
+    background-color: beige;
+    border-radius: 0.5rem;
+   
+}
+
+#ans{
+    padding: 1rem;
+    font-size: 3rem;
+    overflow: hidden;
+    overflow: auto;
+    text-align: right;
+    color: rgb(58, 56, 56);
+}
+
+.working{
+    border: 0.1rem solid black;
+    margin: 2rem;
+    height: 280px;
+    width: 320px;
+    border-radius: 0.5rem;
+    background-color: rgb(134, 132, 132);
+    justify-content: center;
+    text-align: center;
+    display: grid;
+}
+
+.operators{
+    margin-top: 1rem;
+    height: 40px;
+    width: 300px;
+}
+
+.operator{
+    height: 35px;
+    width: 70px;
+    border-radius: 0.3rem;
+    background-color: rgb(147, 194, 178);
+    font-size: 2rem;
+}
+
+.others{
+    display: flex;
+}
+
+.leftSide{
+    height: 200px;
+    width: 220px;
+    display: grid;
+}
+
+.rightSide{
+    margin-left: 1rem;
+    height: 200px;
+    width: 60px;
+}
+
+.ls{
+    height: 65px;
+    width: 50px;
+    border-radius: 0.3rem;
+    background-color: rgb(19, 18, 18);
+    font-size: 2rem;
+    color: aliceblue;
+}
+
+#equal{
+    height: 200px;
+    width: 60px;
+    border-radius: 0.3rem;
+    background-color: rgb(207, 25, 34);
+    color: aliceblue;
+    font-size: 3rem;
+}
